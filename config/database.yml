@@ -15,7 +15,6 @@ default: &default
 development:
   <<: *default
   database: todo_api_development
-  host: db
   socket: /tmp/mysql.sock
   username: root
   password:
